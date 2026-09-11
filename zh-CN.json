@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-11",
+  "providers": [
+    { "name": "OpenAI", "baseUrl": "https://api.openai.com/v1", "models": ["gpt-4o-mini"] },
+    { "name": "Google Gemini", "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/", "models": ["gemini-2.0-flash"] },
+    { "name": "Anthropic Claude", "baseUrl": "https://api.anthropic.com/v1/", "models": ["claude-sonnet-4-20250514"] },
+    { "name": "xAI Grok", "baseUrl": "https://api.x.ai/v1", "models": ["grok-4"] },
+    { "name": "Mistral", "baseUrl": "https://api.mistral.ai/v1", "models": ["mistral-large-latest"] },
+    { "name": "DeepSeek", "baseUrl": "https://api.deepseek.com/v1", "models": ["deepseek-chat"], "hint": "便宜好用，中文强" },
+    { "name": "Kimi（月之暗面）", "baseUrl": "https://api.moonshot.cn/v1", "models": ["moonshot-v1-8k"], "hint": "长文本" },
+    { "name": "通义千问 Qwen", "baseUrl": "https://dashscope.aliyuncs.com/compatible-mode/v1", "models": ["qwen-plus"] },
+    { "name": "MiMo（小米）", "baseUrl": "https://api.xiaomimimo.com/v1", "models": ["mimo-v2.5-pro"] },
+    { "name": "智谱 GLM", "baseUrl": "https://open.bigmodel.cn/api/paas/v4", "models": ["glm-4-flash"], "hint": "免费模型" },
+    { "name": "豆包（字节）", "baseUrl": "https://ark.cn-beijing.volces.com/api/v3", "models": ["doubao-1-5-pro-32k-250115"], "hint": "火山方舟" },
+    { "name": "OpenRouter", "baseUrl": "https://openrouter.ai/api/v1", "models": ["google/gemini-2.0-flash-001"], "hint": "海外模型聚合" },
+    { "name": "AgnesAI", "baseUrl": "https://apihub.agnes-ai.com/v1", "models": ["agnes-2.5-flash"], "hint": "推理模型" }
+  ]
+}
